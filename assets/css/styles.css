@@ -5,7 +5,10 @@
 .bg-color-name-title {
     background-color: #676767;
 }
+.bg-color-three-reasons {
+    background-color: #fff;
 
+}
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -38,6 +41,23 @@ h1,h2,h3,h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+    float:none;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+}
+
+.section-headding {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 /*--------------------------------------------Heading*/
 
@@ -135,6 +155,9 @@ header {
     background:rgba(0, 0, 0, 0.2);
     height: 120px;
 }
+
+/*--------------------------------------------Section*/
+
 
 /*--------------------------------------------Footer*/
 
