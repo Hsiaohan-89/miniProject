@@ -13,6 +13,7 @@
 .bg-color-three-reasons {
     background-color: #fff;
 }
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -28,8 +29,12 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
+
 /*--------------------------------------------Special paddings/margins/text */
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
@@ -49,7 +54,7 @@ h1,h2,h3,h4 {
 
 .row-table {
     display: table;
-    float:none;
+    float: none;
 }
 
 .section-column {
@@ -63,6 +68,7 @@ h1,h2,h3,h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -156,7 +162,7 @@ header {
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background:rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
@@ -221,4 +227,40 @@ footer {
 
 .three-reasons-heading {
     margin-bottom: 15px;
+}
+
+/*--------------------------------------------Personal info*/
+
+.personal-info-item {
+    display: block;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
