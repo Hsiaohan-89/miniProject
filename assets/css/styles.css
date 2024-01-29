@@ -156,9 +156,6 @@ header {
     height: 120px;
 }
 
-/*--------------------------------------------Section*/
-
-
 /*--------------------------------------------Footer*/
 
 footer {
@@ -209,4 +206,15 @@ footer {
 
 #footer-details {
     padding: 15px;
+}
+
+/*--------------------------------------------Three reasons*/
+
+.three-reasons-icon {
+    font-size: 40px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
