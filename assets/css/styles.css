@@ -66,7 +66,7 @@ h4 {
 }
 
 .history-heading,
-.section-headding {
+.section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
@@ -302,6 +302,11 @@ footer {
     position: relative;
     color: #fafafa;
     border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
 }
 
 .timeline-item:before {
