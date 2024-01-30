@@ -13,6 +13,11 @@
 .bg-color-work-history {
     background-color: #9b59b6;
 }
+
+.bg-color-contact {
+    background: #fff;
+}
+
 .bg-color-three-reasons {
     background-color: #fff;
 }
@@ -274,7 +279,7 @@ footer {
 .progress {
     position: relative;
     margin-bottom: 4px;
-    height: 25px; 
+    height: 25px;
 }
 
 .progress-type {
@@ -312,8 +317,8 @@ footer {
 .timeline-item:before {
     content: attr(data-dates);
     position: absolute;
-    left:2.5em;
-    top:3em;
+    left: 2.5em;
+    top: 3em;
     display: block;
     font-weight: 500;
     font-family: "Exo", sans-serif;
@@ -331,9 +336,41 @@ footer {
     position: absolute;
     content: '';
     border-radius: 12px;
-    background:#fafafa;
+    background: #fafafa;
 }
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/*--------------------------------------------contract form*/
+
+.contact-heading {
+    font-family: Exo, sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.center-form {
+    margin: 0 auto;
+    padding-top: 10px;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    background-color: #e84610;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/*--------------------------------------------Media Queries*/
+@media(min-width:992px) {
+    .center-form {
+        margin: 0 auto;
+        padding-top: 30px;
+        min-height: 240px;
+        max-width: 50%;
+    }
 }
